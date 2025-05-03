@@ -1,0 +1,102 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored if package restore is enabled
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# .NET Core project lock files
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio cache files
+.vs/
+.vscode/
+
+# Rider IDE files
+.idea/
+
+# Npm packages
+node_modules/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code settings
+*.code-workspace
+.history/
+
+# Resharper and JetBrains files
+_ReSharper*/
+*.DotSettings.user
+
+# Debug/Release folders
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+
+# Publish output
+**/publish/
+
+# Test Results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# StyleCop
+StyleCopReport.xml
+
+# Others
+*.dbmdl
+*.pdb
+*.cache
+*.sdf
+*.cachefile
+*.bak
+*.orig
+*.swp
+*.tmp
+*.psess
+*.vsp
+
+# Git folders/files
+*.orig
+*.rej
+
+# Exclude environment-specific files
+.env
+secrets.json
+
+# Ignore auto-generated files
+Generated_Code/
+
+# Local settings
+Properties/launchSettings.json
